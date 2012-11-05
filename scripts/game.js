@@ -3,7 +3,7 @@ require.config({
 		jquery: 'libs/jquery.min'
 	}
 });
-define(["interactives/City", "Player", "interactives/Base", "map", "jquery", "loader","controller","map-debug"], function(City, Player, Base, Map, $, Loader,Controller,CanvasDebugger) {
+define(["interactives/City", "player", "interactives/Base", "map", "jquery", "loader","controller","map-debug"], function(City, Player, Base, Map, $, Loader,Controller,CanvasDebugger) {
 	window.requestAnimationFrame=window.requestAnimationFrame || window.webkitRequestAnimationFrame;
 
 
