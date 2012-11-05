@@ -1,19 +1,20 @@
 //map only displays 15 width*10 height
-$(function(){
-	AW.MapTerrain=function(terrainMatrix){
-		
-		this.terrainMatrix=terrainMatrix;
-	};
-	AW.MapTerrain.PLAIN=0;
-	AW.MapTerrain.WOOD=2;
-	AW.MapTerrain.MOUNTAIN=6;
-	AW.MapTerrain.RIVER=1;
-	AW.MapTerrain.ROAD=7;
-	AW.MapTerrain.BRIGE=8;
-	AW.MapTerrain.CITY=9;
-	AW.MapTerrain.BASE=10;
-	AW.MapTerrain.PORT=11;
-	AW.MapTerrain.SHOAL=5;
-	AW.MapTerrain.SEA=3;
-	AW.MapTerrain.REEF=4;
+define([], function() {
+	var MapTerrain = function(terrainMatrix) {
+			this.terrainMatrix = terrainMatrix;
+		};
+	MapTerrain.PLAIN = 0;
+	MapTerrain.WOOD = 2;
+	MapTerrain.MOUNTAIN = 6;
+	MapTerrain.RIVER = 1;
+	MapTerrain.ROAD = 7;
+	MapTerrain.BRIGE = 8;
+	MapTerrain.CITY = 9;
+	MapTerrain.BASE = 10;
+	MapTerrain.PORT = 11;
+	MapTerrain.SHOAL = 5;
+	MapTerrain.SEA = 3;
+	MapTerrain.REEF = 4;
+	return MapTerrain;
+
 });

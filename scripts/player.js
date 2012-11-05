@@ -1,11 +1,12 @@
-$(function(){
-	AW.Player=function(){
+define([], function() {
+	var Player = function() {
 
-	};
-	AW.Player.EMPTY=0;
-	AW.Player.RED=1;
-	AW.Player.GREEN=2;
-	AW.Player.BLUE=3;
-	AW.Player.YELLOw=4;
-
+		};
+	Player.EMPTY = 0;
+	Player.RED = 1;
+	Player.GREEN = 2;
+	Player.BLUE = 3;
+	Player.YELLOw = 4;
+	
+	return Player;
 });
