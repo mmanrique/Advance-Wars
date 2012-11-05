@@ -1,0 +1,346 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ren",
+				"renderInteractables"
+			],
+			[
+				"SprI",
+				"SPRITESHEET"
+			],
+			[
+				"maxim",
+				"maximunLineOfSight_Y"
+			],
+			[
+				"inter",
+				"interactive"
+			],
+			[
+				"intera",
+				"interactivesList"
+			],
+			[
+				"for",
+				"for	for (…) {…}"
+			],
+			[
+				"rn",
+				"renderBackground"
+			],
+			[
+				"get",
+				"getCamera"
+			],
+			[
+				"webki",
+				"webkitGetUserMedia"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"move",
+				"movementY"
+			],
+			[
+				"MOve",
+				"movementX"
+			],
+			[
+				"turn",
+				"turnHorizontal"
+			],
+			[
+				"angle",
+				"angleZY"
+			],
+			[
+				"proto",
+				"prototype"
+			],
+			[
+				"tar",
+				"targetXFromCenter"
+			],
+			[
+				"rotation",
+				"rotationConstant"
+			],
+			[
+				"render",
+				"render"
+			],
+			[
+				"canvas",
+				"canvasLocation"
+			],
+			[
+				"HTML",
+				"HTMLElement"
+			],
+			[
+				"pro",
+				"prototype"
+			],
+			[
+				"wit",
+				"width"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 79.0,
+		"selected_items":
+		[
+			[
+				"Format",
+				"Format: Javascript"
+			],
+			[
+				"Format J",
+				"Format: Javascript"
+			],
+			[
+				"Install ",
+				"Package Control: Install Package"
+			],
+			[
+				"Install",
+				"Package Control: Install Package"
+			],
+			[
+				"Git push",
+				"Git: Push"
+			],
+			[
+				"git comi",
+				"Git: Commit"
+			],
+			[
+				"git add",
+				"Git: Add..."
+			],
+			[
+				"git status",
+				"Git: Status"
+			],
+			[
+				"Remove Pa",
+				"Package Control: Remove Package"
+			],
+			[
+				"Intall ",
+				"Package Control: Install Package"
+			],
+			[
+				"Install Pac",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"Install P",
+				"Package Control: Install Package"
+			],
+			[
+				"Install Pa",
+				"Package Control: Install Package"
+			],
+			[
+				"INstlla",
+				"Package Control: Install Package"
+			],
+			[
+				"INstall",
+				"Package Control: Install Package"
+			],
+			[
+				"Remove",
+				"Package Control: Remove Package"
+			]
+		],
+		"width": 480.0
+	},
+	"console":
+	{
+		"height": 139.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/D/projects/Others/AW/scripts/interactives.js",
+		"/D/projects/Others/AW/scripts/unit.js",
+		"/D/projects/Others/AW/index.html",
+		"/D/projects/Others/AW/scripts/player.js",
+		"/D/projects/Others/AW/scripts/map.js",
+		"/D/projects/Others/AW/scripts/controller.js",
+		"/D/projects/Others/AW/scripts/base.js",
+		"/D/projects/Others/AW/scripts/map-debug.js",
+		"/D/projects/Others/AW/scripts/mapTerrain.js",
+		"/D/projects/Others/AW/scripts/imageUtils.js",
+		"/D/projects/Others/AW/sprites/Machiavellianism.png",
+		"/D/projects/Others/AW/AdvanceWars.sublime-workspace",
+		"/home/manuel/projects/DevelopersLive/WebStorage/index.html",
+		"/home/manuel/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
+		"/home/manuel/projects/myYeomanApp/app/index.html",
+		"/home/manuel/projects/myYeomanApp/·",
+		"/home/manuel/untitled.js",
+		"/home/manuel/projects/LaMemoteca/lamemoteca/static/experiments/PointerLock/index.html",
+		"/home/manuel/projects/LaMemoteca/lamemoteca/static/sass/screen.scss",
+		"/home/manuel/projects/LaMemoteca/lamemoteca/static/stylesheets/examples/css3Animations.css",
+		"/home/manuel/projects/LaMemoteca/lamemoteca/static/sass/examples/css3animations.css",
+		"/home/manuel/projects/LaMemoteca/lamemoteca/static/examples/css3animations.html"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"horizontalMoveLeft",
+			"City",
+			"Aw",
+			"			\n",
+			"interactivesMatrix",
+			"window",
+			"onGFail",
+			"onFaile",
+			"failSoHard",
+			"color",
+			"all",
+			"id",
+			"rotationConstant",
+			"this.angle",
+			"height",
+			"width"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.git":
+	{
+		"height": 114.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"control",
+				"AW/scripts/controller.js"
+			],
+			[
+				"index",
+				"static/experiments/PointerLock/index.html"
+			],
+			[
+				"css3animations",
+				"lamemoteca/static/examples/css3animations.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/home/manuel/projects/Others/Others.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}
