@@ -2,14 +2,15 @@ define([], function() {
 	var Loader = function() {
 		
 		};
-	Loader.loadResources = function(callback) {
+	Loader.prototype.loadResources = function(callback,imageUrl) {
 		Loader.SPRITESHEET = new Image();
 		Loader.SPRITESHEET.onload = function() {
 			if(!!callback){
 				callback.call();
 			}
 		};
-		Loader.SPRITESHEET.src = "sprites/AW1SpritesTransparent.png";
+		Loader.SPRITESHEET.src = imageUrl;
 	};
+    Loader.loadResources = Loader.prototype.loadResources;
 	return Loader;
 });
