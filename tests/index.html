@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Example Test Runner</title>
+        <link rel="stylesheet" href="lib/qunit-1.11.0.css" />
+
+        <!-- QUnit includes -->
+        <script src="lib/qunit-1.11.0.js"></script>
+
+        <!--Prevent Tests from auto starting-->
+        <script>
+            // Defer Qunit so RequireJS can work its magic and resolve all modules.
+            QUnit.config.autostart = false;
+        </script>
+
+        <!-- Load RequireJS & the testsuite -->
+        <script src="../scripts/libs/require.js" data-main="testsuite.js"></script>
+    </head>
+    <body>
+        <div id="qunit"></div>
+    </body>
+</html>
