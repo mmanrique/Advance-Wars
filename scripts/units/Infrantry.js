@@ -1,4 +1,4 @@
-define(["unit"],function(Unit){
+define(["unit", "sprite"],function(Unit){
 	var Infantry=function(positionX,positionY,player){
 		this.player=player;
 		Unit.call(this, positionX, positionY);
@@ -12,21 +12,36 @@ define(["unit"],function(Unit){
 		this.movementUnits=3;
 		this.vision=2;
 	};
+
 	Infantry.sprites={
-		EMPTY: [{
-			x: 40,
-			y: 1488,
-			width: 16,
-			height: 15
-		}],
-		RED: [{
-			x: 40,
-			y: 1521,
-			width: 16,
-			height: 15
-		}],
-		GREEN: [],
-		BLUE: [],
-		YELLOW: []
+		RED: {
+            STAND_BY:[
+                new Sprite(),
+                new Sprite(),
+                new Sprite()
+            ]
+        },
+		GREEN: {
+            STAND_BY:[
+                new Sprite(),
+                new Sprite(),
+                new Sprite()
+            ]
+        },
+		BLUE: {
+            STAND_BY:[
+                new Sprite(),
+                new Sprite(),
+                new Sprite()
+            ]
+        },
+		YELLOW: {
+            STAND_BY:[
+                new Sprite(),
+                new Sprite(),
+                new Sprite()
+            ]
+
+        }
 	};
 });

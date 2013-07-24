@@ -1,4 +1,4 @@
-define(["interactive", "player"], function(Interactive, Player) {
+define(["interactive", "player", "sprite"], function(Interactive, Player, Sprite) {
 	Base = function(positionX, positionY, player) {
 		Interactive.call(this, positionX, positionY, player);
 		this.size = 1;
@@ -7,18 +7,12 @@ define(["interactive", "player"], function(Interactive, Player) {
 	Base.prototype.constructor = Base;
 
 	Base.SPRITES = {
-		EMPTY: [{
-			x: 40,
-			y: 1488,
-			width: 16,
-			height: 15
-		}],
-		RED: [{
-			x: 40,
-			y: 1521,
-			width: 16,
-			height: 15
-		}],
+		EMPTY: [
+            new Sprite(40,1488,16,15)
+		],
+		RED: [
+            new Sprite(40,1521,16,15)
+		],
 		GREEN: [],
 		BLUE: [],
 		YELLOW: []

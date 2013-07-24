@@ -49,7 +49,7 @@ define(["loader"], function(Loader) {
 					var x = interactive.position.x - this.mapProperties.currentView.x;
 					var y = interactive.position.y - this.mapProperties.currentView.y;
 					var currentSprite = interactive.sprites[interactive.currentSprite];
-					this.canvasContext.drawImage(Loader.SPRITESHEET, currentSprite.x, currentSprite.y, currentSprite.width, currentSprite.height, x * this.tileWidth, (y + 1) * this.tileHeight, this.tileWidth, -this.tileHeight * interactive.size);
+					this.canvasContext.drawImage(Loader.SPRITESHEET, currentSprite.position.x, currentSprite.position.y, currentSprite.width, currentSprite.height, x * this.tileWidth, (y + 1) * this.tileHeight, this.tileWidth, -this.tileHeight * interactive.size);
 				}
 			}
 		}

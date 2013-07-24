@@ -1,4 +1,4 @@
-define(["interactive","player"], function(Interactive, Player) {
+define(["interactive","player", "sprite"], function(Interactive, Player, Sprite) {
 	var City = function(positionX, positionY, player) {
 		Interactive.call(this, positionX, positionY, player);
 	};
@@ -6,18 +6,12 @@ define(["interactive","player"], function(Interactive, Player) {
 	City.prototype.constructor =City;
 
 	City.SPRITES = {
-		EMPTY: [{
-			x: 22,
-			y: 1482,
-			width: 16,
-			height: 21
-		}],
-		RED: [{
-			x: 22,
-			y: 1515,
-			width: 16,
-			height: 21
-		}],
+		EMPTY: [
+            new Sprite(22,1482,16,21)
+        ],
+		RED: [
+            new Sprite(22,1515,16,21)
+            ],
 		GREEN: [],
 		BLUE: [],
 		YELLOW: []
