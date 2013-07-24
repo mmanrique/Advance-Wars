@@ -54,7 +54,7 @@ define(["interactives/City", "player", "interactives/Base", "map", "jquery", "lo
 				render();
 			};
 		};
-	Loader.loadResources(start);
+	Loader.loadResources(start,'sprites/AW1SpritesTransparent.png');
 
 
 	
