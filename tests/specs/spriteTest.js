@@ -4,7 +4,7 @@ define(function(require){
 
     QUnit.module("loader module", {
         setup: function () {
-            this.sprite = new Sprite();
+            this.sprite = Object.create(Sprite);
         },
         teardown: function () {
         }

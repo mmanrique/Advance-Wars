@@ -4,7 +4,7 @@ define(function(require){
 
     QUnit.module("player module", {
         setup: function () {
-            this.player = new Player();
+            this.player = Object.create(Player);
         },
         teardown: function () {
         }

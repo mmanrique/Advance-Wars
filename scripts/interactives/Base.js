@@ -8,10 +8,10 @@ define(["interactive", "player", "sprite"], function(Interactive, Player, Sprite
 
 	Base.SPRITES = {
 		EMPTY: [
-            new Sprite(40,1488,16,15)
+            Object.create(Sprite).initialize(40,1488,16,15)
 		],
 		RED: [
-            new Sprite(40,1521,16,15)
+            Object.create(Sprite).initialize(40,1521,16,15)
 		],
 		GREEN: [],
 		BLUE: [],

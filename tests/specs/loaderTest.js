@@ -4,15 +4,14 @@ define(function(require){
 
     QUnit.module("loader module", {
         setup: function () {
-            this.loader = new Loader();
+            this.loader = Object.create(Loader);
         },
         teardown: function () {
         }
     });
 
     QUnit.test("Test we can create a Loader",function(){
-        var loader = new Loader();
-        QUnit.ok(loader, 'a loader Object is created');
+        QUnit.ok(this.loader, 'a loader Object is created');
     });
     QUnit.test('Test Loader.loadResource can be called as static',function(){
         QUnit.ok(Loader.loadResources, 'Method exists in the static context');
