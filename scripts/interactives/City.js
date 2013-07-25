@@ -7,10 +7,10 @@ define(["interactive","player", "sprite"], function(Interactive, Player, Sprite)
 
 	City.SPRITES = {
 		EMPTY: [
-            new Sprite(22,1482,16,21)
+            Object.create(Sprite).initialize(22,1482,16,21)
         ],
 		RED: [
-            new Sprite(22,1515,16,21)
+            Object.create(Sprite).initialize(22,1515,16,21)
             ],
 		GREEN: [],
 		BLUE: [],

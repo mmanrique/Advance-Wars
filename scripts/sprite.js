@@ -1,11 +1,19 @@
 define([], function() {
-    var Sprite = function(positionX, positionY, width, height) {
-        this.position = {
-            x: positionX || 0,
-            y: positionY || 0
-        };
-        this.width = width || 0;
-        this.height = height || 0;
+    return {
+        position: {
+            x:0,
+            y:0
+        },
+        width:0,
+        height:0,
+        initialize: function(positionX, positionY, width, height) {
+            this.position = {
+                x: positionX,
+                y: positionY
+            };
+            this.width = width;
+            this.height = height;
+            return this;
+        }
     };
-    return Sprite;
 });

@@ -1,5 +1,5 @@
 define([], function() {
-	var Player = function() {
+	var Player = {
 
 		};
 	Player.EMPTY = 0;
