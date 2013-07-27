@@ -1,9 +1,9 @@
 define([], function() {
     return {
-        changeColor:function(player){
+        changeColor: function(player) {
 
         },
-        initialize:function(positionX, positionY, player) {
+        initialize: function(positionX, positionY, player) {
             this.position = {
                 x: positionX,
                 y: positionY
