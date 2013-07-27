@@ -22,14 +22,8 @@ define(function(require){
         QUnit.equal(this.base.position.x,15,'Position X is initialized Correctly');
         QUnit.equal(this.base.position.y,20,'Position Y is initialized Correctly');
         QUnit.equal(this.base.size,1,'Size is initialized Correctly');
-        QUnit.deepEqual(this.base.sprites,[],'Sprites is initialized Correctly');
+        QUnit.deepEqual(this.base.sprites,this.base.DEFAULT_SPRITES.RED,'Sprites is initialized Correctly');
         QUnit.equal(this.base.player,Player.RED,'Player is initialized Correctly');
         QUnit.equal(this.base.currentSprite,0,'Player is initialized Correctly');
-    });
-    QUnit.test('Changing the Player is changes the sprites and the Player object',function(){
-        this.base.initialize(15,20,Player.RED);
-        this.base.changeColor(Player.BLUE);
-        QUnit.equal(this.base.player,Player.BLUE,'Player was changed to blue now');
-        QUnit.equal(this.base.sprites, this.base.DEFAULT_SPRITES.BLUE,'Array of Sprites was changed')
     });
 });

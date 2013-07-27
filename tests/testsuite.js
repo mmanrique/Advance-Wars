@@ -17,7 +17,8 @@
         "specs/spriteTest.js",
         "specs/playerTest.js",
         "specs/interactiveTest.js",
-        "specs/baseTest.js"
+        "specs/baseTest.js",
+        "specs/cityTest.js"
     ];
     require(test_modules, function() {
         QUnit.load();
