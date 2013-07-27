@@ -1,3 +1,15 @@
+(function(){
+    Object.extend = Object.extend || function (type, props) {
+        var obj= Object.create(type);
+        for(prop in props) {
+            if(props.hasOwnProperty(prop)) {
+                obj[prop] = props[prop];
+            }
+        }
+        return obj;
+    }
+
+})();
 require.config({
 	paths: {
 		jquery: 'libs/jquery.min'
@@ -23,15 +35,15 @@ define(["interactives/City", "player", "interactives/Base", "map", "jquery", "lo
 				[0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0]
 			];
 			var interactives = [
-			new City(4, 1, Player.EMPTY),
-			new City(8, 3, Player.EMPTY),
-			new City(10, 5, Player.RED),
-			new Base(9, 6, Player.EMPTY),
-			new Base(12, 1, Player.EMPTY),
-			new Base(19, 6, Player.EMPTY),
-			new Base(4, 7, Player.RED),
-			new City(15, 3, Player.EMPTY),
-			new City(17, 2, Player.EMPTY)
+			Object.create(City).initialize(4, 1, Player.EMPTY),
+            Object.create(City).initialize(8, 3, Player.EMPTY),
+            Object.create(City).initialize(10, 5, Player.RED),
+			Object.create(Base).initialize(9, 6, Player.EMPTY),
+            Object.create(Base).initialize(12, 1, Player.EMPTY),
+            Object.create(Base).initialize(19, 6, Player.EMPTY),
+            Object.create(Base).initialize(4, 7, Player.RED),
+            Object.create(City).initialize(15, 3, Player.EMPTY),
+            Object.create(City).initialize(17, 2, Player.EMPTY)
 			];
 			//var mapName="sprites/GBA_Advance_Wars.png";
 			var mapName = "sprites/Machiavellianism.png";
@@ -55,10 +67,4 @@ define(["interactives/City", "player", "interactives/Base", "map", "jquery", "lo
 			};
 		};
 	Loader.loadResources(start,'sprites/AW1SpritesTransparent.png');
-
-
-	
-
-
-
 });

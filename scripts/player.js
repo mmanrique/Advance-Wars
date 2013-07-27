@@ -1,12 +1,9 @@
 define([], function() {
-	var Player = {
-
-		};
-	Player.EMPTY = 0;
-	Player.RED = 1;
-	Player.GREEN = 2;
-	Player.BLUE = 3;
-	Player.YELLOw = 4;
-	
-	return Player;
+    return {
+        EMPTY: 0,
+        RED: 1,
+        GREEN: 2,
+        BLUE: 3,
+        YELLOw: 4
+    }
 });
