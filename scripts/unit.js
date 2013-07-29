@@ -18,7 +18,7 @@ define([], function() {
             TIRES: 3,
             AIR: 4
         },
-        initialize:function(positionX,positionY){
+        initialize: function(positionX, positionY) {
             this.position.x = positionX;
             this.position.y = positionY;
         }

@@ -19,7 +19,9 @@
         "specs/interactiveTest.js",
         "specs/baseTest.js",
         "specs/cityTest.js",
-        "specs/unitTest.js"
+        "specs/unitTest.js",
+        "specs/controllerTest.js",
+        "specs/mapTerrainTest.js"
     ];
     require(test_modules, function() {
         QUnit.load();
