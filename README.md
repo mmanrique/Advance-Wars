@@ -6,7 +6,7 @@ This is a prototype of a game I love done with HTML5
 
 Requisites
 ==========
-PhantomJS(http://phantomjs.org/) is the only testing tool used, other than that you only need Chrome
+[PhantomJS](http://phantomjs.org/) is the only testing tool used, other than that you only need Chrome
 
 How to test
 ============
