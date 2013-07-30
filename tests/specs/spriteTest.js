@@ -2,7 +2,7 @@
 define(function(require){
     var Sprite = require('sprite');
 
-    QUnit.module("loader module", {
+    QUnit.module("Sprite module", {
         setup: function () {
             this.sprite = Object.create(Sprite);
         },

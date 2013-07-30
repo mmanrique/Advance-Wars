@@ -3,7 +3,7 @@
     require.config({
         baseUrl: "../scripts"
     });
-    Object.extend = function extend(type, props) {
+    Object.extend = function(type, props) {
         var obj= Object.create(type);
         for(prop in props) {
             if(props.hasOwnProperty(prop)) {
@@ -18,7 +18,12 @@
         "specs/playerTest.js",
         "specs/interactiveTest.js",
         "specs/baseTest.js",
-        "specs/cityTest.js"
+        "specs/cityTest.js",
+        "specs/unitTest.js",
+        "specs/controllerTest.js",
+        "specs/mapTerrainTest.js",
+        "specs/mapTest.js"
+
     ];
     require(test_modules, function() {
         QUnit.load();
