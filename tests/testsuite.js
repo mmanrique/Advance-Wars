@@ -21,7 +21,9 @@
         "specs/cityTest.js",
         "specs/unitTest.js",
         "specs/controllerTest.js",
-        "specs/mapTerrainTest.js"
+        "specs/mapTerrainTest.js",
+        "specs/mapTest.js"
+
     ];
     require(test_modules, function() {
         QUnit.load();
