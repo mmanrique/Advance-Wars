@@ -9,7 +9,18 @@ define(["loader"], function(Loader) {
         mapImage: {
             src: ''
         },
-        mapProperties: {},
+        mapProperties: {
+            tileWidth: 16,
+            tileHeight: 16,
+            size: {
+                x: 30,
+                y: 20
+            },
+            currentView: {
+                x: 0,
+                y: 0
+            }
+        },
         initialize: function(canvas, mapTerrainMatrix, interactivesList, mapName) {
             var self = this;
             this.canvas = canvas;
@@ -23,18 +34,6 @@ define(["loader"], function(Loader) {
             };
             this.mapImage.src = mapName;
             this.canvasContext = canvas.getContext("2d");
-            this.mapProperties = {
-                tileWidth: 16,
-                tileHeight: 16,
-                size: {
-                    x: 30,
-                    y: 20
-                },
-                currentView: {
-                    x: 0,
-                    y: 0
-                }
-            }
         },
         render: function() {
             this.renderBackground();

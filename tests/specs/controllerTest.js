@@ -20,4 +20,6 @@ define(function(require){
         this.controller.initialize('MAP');
         QUnit.equal(this.controller.map,'MAP','map in the controller is saved, controller is now attached to that map')
     });
+
+    //TODO: Fill in with Map tests after mapTest.js is finished
 });
