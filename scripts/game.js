@@ -47,13 +47,13 @@ define(["interactives/City", "player", "interactives/Base", "map", "jquery", "lo
 			];
 			//var mapName="sprites/GBA_Advance_Wars.png";
 			var mapName = "sprites/Machiavellianism.png";
-			var myMap = new Map(canvas, mapArray, interactives, mapName);
-			var canvasDebugger = new CanvasDebugger(myMap);
-			var controller = new Controller(myMap);
+			var myMap = Object.create(Map).initialize(canvas, mapArray, interactives, mapName);
+//			var canvasDebugger = Object.create(CanvasDebugger).initialize(myMap);
+			var controller = Object.create(Controller).initialize(myMap);
 
 			function update() {
 				myMap.render();
-				//canvasDebugger.drawlines();
+//				canvasDebugger.drawlines();
 				controller.render();
 			}
 

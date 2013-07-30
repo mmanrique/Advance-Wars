@@ -34,6 +34,7 @@ define(["loader"], function(Loader) {
             };
             this.mapImage.src = mapName;
             this.canvasContext = canvas.getContext("2d");
+            return this;
         },
         render: function() {
             this.renderBackground();

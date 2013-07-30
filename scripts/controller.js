@@ -16,6 +16,7 @@ define(["loader"], function(Loader) {
 
         initialize: function(mapArgument) {
             this.map = mapArgument;
+            return this;
         },
         render: function() {
             var context = this.map.canvasContext;
@@ -24,7 +25,10 @@ define(["loader"], function(Loader) {
             context.drawImage(Loader.SPRITESHEET, 70, 1682, 29, 32, initialX, initialY, this.map.tileWidth * 1.6, this.map.tileHeight * 1.6);
         },
         keyBoardHandler: function(event) {
-
+            this.horizontalMoveLeft = false;
+            this.horizontalMoveRight = false;
+            this.verticalMoveUp = false;
+            this.verticalMoveDown = false;
             switch (event.keyCode) {
                 case 39:
                     this.horizontalMoveRight = true;
